@@ -1,3 +1,5 @@
+/* Logo top left */
+
 .brand img {
   margin-top: 10px;
   height: 100px;
@@ -7,8 +9,24 @@
  float: left;
   margin: 0 0 20px 20px;
   color: #ffffff;
-  height: 30px;
 }
+
+.brand img {
+  height: 70px;
+  padding: 10px;
+}
+
+/* Main Header Image */
+
+.main {
+  background-image: url("images/top.jpg");
+  padding: 30px;
+  height: 45vh;
+  background-size: cover;
+  background-position: center;
+}
+
+/* User photo and name top right */
 
 .login {
   float: right;
@@ -26,10 +44,14 @@
   flex-direction: row;
 }
 
+/* Remove standard body margin */
+
 body,html {
   margin:0;
   padding:0;
 }
+
+/* Body CSS */
 
 body {
   background: rgb(245,245,245);
@@ -37,9 +59,13 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+/* Links CSS */
+
 a {
   text-decoration: none;
 }
+
+/* Titles and Link CSS */
 
 h1, h2, h3, a {
   font-family: 'Open Sans', sans-serif;
@@ -56,8 +82,9 @@ h2 {
 }
 
 
+/* CSS giving the boxes a colour and drop shadow, as well as centering content */
+
 .card {
-  margin-top: -100;
   background: #ffffff;
   background-image: url("images/footer-back.png");
   width: 600px;
@@ -66,8 +93,20 @@ h2 {
   text-align: center;
   border-radius: 5px;
   box-shadow: -1px 4px 40px -6px rgba(173,173,173,0.44);
-
 }
+
+.card h1 {
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+
+
+/* Links CSS */
 
 #header-img {
   width: 50px;
@@ -78,12 +117,21 @@ h2 {
   margin: 10px;
 }
 
+/* CSS for the photo of me */
+
 #logo {
-  width: 100px;
+  margin-top: -100;
+  width: 120px;
   border-radius: 50%;
   border-style: solid;
   border-color: rgb(245,245,245);
 }
+
+.push {
+  margin-top: -220;
+}
+
+/* Photos in the CV section */
 
 .work-images {
 width: 50px;
@@ -93,9 +141,15 @@ border-color: #efefef;
 margin-right: 20px;
 }
 
+/* CSS to put the list items inline and create padding between items */
+
 .inline-list >li {
   display: inline-block;
-  padding: 0 10;
+  padding: 0 30;
+}
+
+.inline-list i {
+  font-size: 35px;
 }
 
 ul {
@@ -105,6 +159,8 @@ ul {
 td {
   padding-top: 50px;
 }
+
+/* CSS buttons */
 
 .btn {
   -webkit-border-radius: 7;
@@ -125,17 +181,7 @@ td {
   text-decoration: none;
 }
 
-.main {
-  background-image: url("images/top.jpg");
-  padding: 30px;
-  height: 45vh;
-  background-size: cover;
-  background-position: center;
-}
-
-.push {
-  margin-top: -200;
-}
+/* Footer */
 
 .bottom {
   background: #ffffff;
@@ -143,17 +189,20 @@ td {
   padding: 20 0;
 }
 
+
+/* CSS creating division of main page content and sidebar */
+
 #sidebar {
   position: fixed;
-  width: 35px;
+  width: 25px;
   left: 0;
   top: 0;
   bottom: 0;
   background: #66778e;
-  padding: 30px;
+  padding: 20px;
 }
 #page-content {
-  margin-left: 90px;
+  margin-left: 45px;
 }
 
 .side-bar-icons i {
