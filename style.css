@@ -143,4 +143,23 @@ td {
   padding: 20 0;
 }
 
+#sidebar {
+  position: fixed;
+  width: 50px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: #66778e;
+  padding: 30px;
+}
+#page-content {
+  margin-left: 100px;
+}
+
+.side-bar-icons i {
+  padding-top: 30;
+  font-size: 50;
+  color: #ffffff;
+}
+
 
