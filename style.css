@@ -145,7 +145,7 @@ td {
 
 #sidebar {
   position: fixed;
-  width: 50px;
+  width: 35px;
   left: 0;
   top: 0;
   bottom: 0;
@@ -153,12 +153,12 @@ td {
   padding: 30px;
 }
 #page-content {
-  margin-left: 100px;
+  margin-left: 90px;
 }
 
 .side-bar-icons i {
   padding-top: 30;
-  font-size: 35;
+  font-size: 30;
   color: #ffffff;
 }
 
