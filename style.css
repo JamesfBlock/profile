@@ -58,7 +58,7 @@ h2 {
 .card {
   margin-top: -100;
   background: #ffffff;
-  background-image: url("images/footer-back.png");
+  background-image: url("/blob/gh-pages/images/footer-back.png");
   width: 500px;
   padding: 30px;
   margin: 20 auto;
@@ -125,7 +125,7 @@ td {
 }
 
 .main {
-  background-image: url("images/top.jpg");
+  background-image: url("/blob/gh-pages/images/top.jpg");
   padding: 30px;
   height: 45vh;
   background-size: cover;
