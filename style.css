@@ -1,0 +1,145 @@
+.brand img {
+  margin-top: 10px;
+  height: 100px;
+}
+
+.brand {
+ float: left;
+  margin: 0 0 20px 20px;
+  color: #ffffff;
+  height: 30px;
+}
+
+.login {
+  float: right;
+  margin: 0 0 20px 20px;
+  color: #ffffff;
+}
+
+#jb {
+  padding: 10px;
+}
+.flex {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+body,html {
+  margin:0;
+  padding:0;
+}
+
+body {
+  background: rgb(245,245,245);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #55667e;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+
+.card {
+  margin-top: -100;
+  background: #ffffff;
+  background-image: url("/images/footer-back.png");
+  width: 500px;
+  padding: 30px;
+  margin: 20 auto;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: -1px 4px 40px -6px rgba(173,173,173,0.44);
+
+}
+
+#header-img {
+  width: 50px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(245,245,245);
+  text-align: right;
+  margin: 10px;
+}
+
+#logo {
+  width: 100px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(245,245,245);
+}
+
+.work-images {
+width: 50px;
+border-radius: 50%;
+border-style: solid;
+border-color: #efefef;
+margin-right: 20px;
+}
+
+.inline-list >li {
+  display: inline-block;
+  padding: 0 10;
+}
+
+ul {
+  padding-left: 0
+}
+
+td {
+  padding-top: 50px;
+}
+
+.btn {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 17px;
+  background: #66778e;
+  padding: 10px 20px 10px 20px;
+  margin:auto;
+  text-decoration: none;
+  width: 100px;
+}
+
+.btn:hover {
+  background: #90a1b8;
+  text-decoration: none;
+}
+
+.main {
+  background-image: url("/images/top.jpg");
+  padding: 30px;
+  height: 45vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.push {
+  margin-top: -200;
+}
+
+.bottom {
+  background: #ffffff;
+  text-align: center;
+  padding: 20 0;
+}
+
+
